@@ -6,7 +6,7 @@ const getRegistrationData = async function () {
       );
     const data = await request.json();
     console.log(data);
-    displayContractList(data);
+    displayContactList(data);
 };
 
 const displayContactList = function (data) {
